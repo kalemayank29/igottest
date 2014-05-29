@@ -1,0 +1,329 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{	list-style-type:none;
+}
+
+a.text:link {text-decoration:none;color:white;}
+a.text:visited {text-decoration:none;color:white;}
+a.text:hover {text-decoration:none;color:white;}
+a.text:active {text-decoration:none;color:white;}
+a.signin:link {text-decoration:none;color:#f8cc47;}
+a.signin:visited {text-decoration:none;color:#f8cc47;}
+a.signin:hover {text-decoration:none;color:#f8cc47;}
+a.singin:active {text-decoration:none;color:#f8cc47;}
+
+li
+{	float:left;
+	
+}
+
+#navbar
+{	margin-top:0px;
+	width:100%;
+	height:80px;
+	background-color:#3682b8;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+#logo
+{
+	/*margin-top:4px;*/
+	margin-left:60px;
+}
+
+#logo:hover
+{
+	/*margin-top:8px;*/
+	margin-left:60px;
+	background-color: #216fa5;
+}
+
+#ass
+{	padding:30.5px;
+	padding-left: 30px;
+	font-size: 11pt;
+	color:white;
+}
+
+#ass:hover
+{	padding:30.5px;
+	padding-left: 30.5px;
+	font-size: 11pt;
+	background-color: #216fa5;
+	color:white;
+}
+
+#learn
+{	padding:30.5px;
+	font-size: 11pt;
+	padding-left: 30.5px;
+	/*margin-top:30px;*/
+}
+
+#learn:hover
+{	padding:30.5px;
+	font-size: 11pt;
+	background-color: #216fa5;
+}
+
+
+#about
+{	padding:30.5px;
+	font-size: 11pt;
+	padding-left: 30.5px;
+	
+}
+
+#about:hover
+{	padding:30.5px;
+	font-size: 11pt;
+	background-color: #216fa5;
+}
+
+#sign
+{	padding:32px;
+	font-size: 9pt;
+	padding-left: 30px;
+	font-family: 'Merriweather Sans', sans-serif;
+	letter-spacing: 1.5px;
+	font-weight:700px;
+	color: #f8cc47;
+	float:right;
+	margin-top:0.75px;
+	margin-right:100px;
+}
+
+#sign:hover
+{	padding:32px;
+	font-size: 9pt;
+	background-color: #216fa5;
+	font-weight: 700px;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #f8cc47;
+	float:right;
+	margin-top:0.75px;
+	margin-right:100px;
+}
+
+#signup
+{
+	display:block;
+	height:325px;
+	width:100%;
+	background-color:#316086;
+}
+
+#form
+{
+	margin-top:-200px;
+	margin-left:600px;
+}
+
+#name
+{
+	width:275px;
+	height:30px;
+	padding:10px;
+	color:#3682b8;
+	border-radius:2px;
+	border:none;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:12px;
+	font-weight:300;
+}
+
+#email
+{
+	width:275px;
+	height:30px;
+	padding:10px;
+	color:#3682b8;
+	border-radius:2px;
+	border:none;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:12px;
+	font-weight:300;
+}
+
+#submit
+{
+	background-color:#f8cc47;
+	border-radius: 5px;
+	border:none;
+	color:black; 
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	padding-left:13px;
+	padding-right:13px;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+#standard{
+	/*position:fixed;
+	padding:100px;
+	margin-left:50px;*/
+	display:inline-block;
+	margin-left: 5%;
+}
+
+.titles
+{	
+	color:#3682b8;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:18px;
+	font-weight:800;
+	letter-spacing: .5px;
+	margin-top:-10px;
+}
+
+/*.gentext
+{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#36495c;
+	position: absolute;
+	text-align: center;
+}
+*/
+#simage
+{
+	margin-left: 75px;
+}
+
+#stext
+{	
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#36495c;
+	/*margin-left:3%;*/
+	text-align:center;
+	/*float:left;*/
+}
+
+#method
+{	padding:60px;
+	/*position:absolute;
+	text-align: center;*/
+	display:inline-block;
+	margin-left: 9%;
+	margin-top:20px;
+}
+#mimage
+{
+	margin-left: 40px;
+}
+
+#guarantee
+{
+	display: inline-block;
+	margin-left:6%;
+	padding:60px;
+	margin-top:20px;
+}
+
+#gtext
+{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#36495c;
+	text-align:center;
+	margin-left:-11px;
+}
+
+#mtext
+{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#36495c;
+	text-align:center;
+	margin-left:-3px;
+}
+
+#gimage
+{
+	margin-left: 30px;
+}
+#gtitle
+{
+	margin-left:7%;
+}
+
+#banner
+{
+	width:100%;
+	height:250px;
+	background-color:#f8cc47;
+}
+
+#topic
+{
+	font-family: 'Lora' , serif;
+	font-weight:700;
+	font-style:italic;
+	color:white;
+	text-align:center;
+	font-size:32px;
+	padding:30px;
+}
+
+#btext
+{
+	font-family: 'Merriweather', serif;
+	font-size:13px;
+	font-weight:300;
+	color:#36495c;
+	text-align:center;
+	margin-left:25%;
+	margin-right:25%;
+	line-height:200%;	
+}
+
+th
+{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:10.5px;
+	font-weight:700;
+	color:#3682b8;
+	text-align:center;
+}
+
+td{
+	/*text-align: center;*/
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:10.5px;
+	font-weight:400;
+	padding:5px;
+	padding-left:17px;
+}
+table{
+	padding:10px;
+	margin-left:100px;
+	display: inline-block;
+}
+
+#social
+{
+	float:right;
+	display:inline-block;
+}
+
+#simages
+{
+	text-align:center;
+}
+
+#container
+{
+	margin-left:10%;
+}
